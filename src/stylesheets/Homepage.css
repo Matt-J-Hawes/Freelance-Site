@@ -1,0 +1,281 @@
+.intro-container { 
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-left{
+    margin-left: 3rem;
+}
+
+.container-right{
+    background: #20368F;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-text{
+    width: 450px;
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.title, .title-break{
+    font-size: 60px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.title-break{
+    margin-top: -10px;
+    color: #20368F;
+}
+
+.sub-title{
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+.main-btn{
+    margin: 30px 0;
+    padding: 10px 30px 8px 30px;
+    font-size: 18px;
+    font-weight: 1000;
+    background: linear-gradient(to right,#20368F, #000B4F );
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-btn:hover{
+    background: #000B4F;
+}
+
+.computer-icon{
+    background: #20368F;
+    font-size: 120px;
+    fill: white;
+}
+
+.slides{
+    display: flex;
+    justify-content: space-around;
+    background: #20368F;
+    align-items: center;
+}
+
+.service-icon{
+    font-size: 70px;
+    background: #20368F;
+    margin: 0 10rem;
+    fill: white;
+}
+
+.arrows {
+    background: #20368F;
+    fill: white;
+    font-size: 18px;
+}
+
+.Typewriter__cursor{
+    display: none;
+}
+
+.arrow-btn{
+    border: 0;
+    background: #20368F;
+    cursor: pointer;
+}
+
+.circles, .circle {
+    margin-top: 20px;
+    background: #20368F ;
+}
+
+.circle {
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+.circle:hover{
+    fill: white;
+    cursor: pointer;
+}
+
+.circle-active {
+    fill: white;
+}
+
+.active{
+    animation: fadeIn 2s;
+    background: #20368F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    background: #20368F;
+    color:  white;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.sub-title-container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sub-title-container h2{
+    margin: 0;
+}
+
+.sub-title-container h1{
+    margin-left: 0;
+}
+
+.what-i-can-do{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.service-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin-top: 0px;
+    transition: 400ms;
+}
+
+.service-container p{
+    width: 350px;
+    font-size: 17px;
+    background: transparent;
+}
+
+
+.service-container h2{
+    background: transparent;
+}
+
+.what-i-can-do-icon{
+    font-size: 70px;
+    color: #20368F;
+    background: transparent;
+}
+
+.what-i-can-do-icon-active{
+    font-size: 70px;
+    color: white;
+    background: transparent;
+}
+
+.plans-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.plan{
+    margin: 30px;
+    padding: 30px;
+    align-self: center;
+    width: 200px;
+    height: 350px;
+    border: 1px solid #20368F;
+    border-radius: 5px;
+    position: relative;
+    transition: 400ms;
+}
+
+.plan:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.plans-title{
+    padding: none;
+    background: none;
+    border: none;
+    font-size: 19px;
+    border-radius: 0;
+    color: black;
+}
+
+.plans-title:hover{
+    background: none;
+    cursor: inherit;
+    color: black;
+}
+
+.price{
+    margin: 10px 0;
+    font-size: 30px;
+    color: #20368F;
+    background: none;
+}
+
+.price-plan{
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+    background: none;
+}
+
+.price-plan-item{
+    position: relative;
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+    background: none;
+}
+
+.plan-btn{
+    position: absolute;
+    bottom: 20px;
+    align-self: center;
+    left: 83px;
+    background: linear-gradient(to right,#20368F, #000B4F );
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 1000;
+}
+
+.plan-btn:hover{
+    background: #000B4F;
+}
+
+.social-icon{
+    background: none;
+    fill: white;
+    font-size: 50px;
+    color: #000B4F;
+}

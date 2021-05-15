@@ -1,0 +1,122 @@
+.about-titles{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #20368F;
+}
+
+.about-titles h2{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background: #20368F;
+    color: white;
+}
+
+.about-titles h1{
+    background: #20368F;
+    color: white;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    background: #20368F;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+.about-list{
+    display: flex;
+    width: 500px;
+    padding: 0;
+    background: #20368F;
+}
+
+.about-option{
+    margin: 0 20px 0 0;
+    color: white;
+    background: none;
+    background: #20368F;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    background: #20368F;
+}
+
+.about-option a h2{
+    color: white;
+    background: #20368F;
+}
+
+a.active{
+    background: white;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    text-decoration: underline;
+    text-decoration-color: white;
+    background: #20368F;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    background: #20368F;
+}
+
+.svg{
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    background: #20368F;
+}
+
+.bio-container{
+   position: absolute;
+   background: #20368F;
+   width: 45%;
+}
+
+.bio-container p{
+    margin-top: 5px;
+    background: #20368F;
+    color: white;
+    font-size: 19px;
+}
+
+.cv-btn{
+    padding: 10px;
+    background: white;
+    color: #20368F;
+    font-weight: 1000;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.cv-btn:hover {
+    cursor: pointer;
+}
+
+.social-container{
+    margin-top: 30px;
+    background: #20368F  ;
+}
+
+.social-icon{
+    background: none;
+    fill: white;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+    transition: 400ms;
+}
+
+.social-icon:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
